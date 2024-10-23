@@ -1,0 +1,14 @@
+C:\Users\MiYa\source\repos\Task7\bin\Debug\net8.0\Task7.exe
+C:\Users\MiYa\source\repos\Task7\bin\Debug\net8.0\Task7.deps.json
+C:\Users\MiYa\source\repos\Task7\bin\Debug\net8.0\Task7.runtimeconfig.json
+C:\Users\MiYa\source\repos\Task7\bin\Debug\net8.0\Task7.dll
+C:\Users\MiYa\source\repos\Task7\bin\Debug\net8.0\Task7.pdb
+C:\Users\MiYa\source\repos\Task7\obj\Debug\net8.0\Task7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MiYa\source\repos\Task7\obj\Debug\net8.0\Task7.AssemblyInfoInputs.cache
+C:\Users\MiYa\source\repos\Task7\obj\Debug\net8.0\Task7.AssemblyInfo.cs
+C:\Users\MiYa\source\repos\Task7\obj\Debug\net8.0\Task7.csproj.CoreCompileInputs.cache
+C:\Users\MiYa\source\repos\Task7\obj\Debug\net8.0\Task7.dll
+C:\Users\MiYa\source\repos\Task7\obj\Debug\net8.0\refint\Task7.dll
+C:\Users\MiYa\source\repos\Task7\obj\Debug\net8.0\Task7.pdb
+C:\Users\MiYa\source\repos\Task7\obj\Debug\net8.0\Task7.genruntimeconfig.cache
+C:\Users\MiYa\source\repos\Task7\obj\Debug\net8.0\ref\Task7.dll
