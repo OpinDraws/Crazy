@@ -1,0 +1,14 @@
+C:\Users\MiYa\source\repos\TestPol\bin\Debug\net8.0\TestPol.exe
+C:\Users\MiYa\source\repos\TestPol\bin\Debug\net8.0\TestPol.deps.json
+C:\Users\MiYa\source\repos\TestPol\bin\Debug\net8.0\TestPol.runtimeconfig.json
+C:\Users\MiYa\source\repos\TestPol\bin\Debug\net8.0\TestPol.dll
+C:\Users\MiYa\source\repos\TestPol\bin\Debug\net8.0\TestPol.pdb
+C:\Users\MiYa\source\repos\TestPol\obj\Debug\net8.0\TestPol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MiYa\source\repos\TestPol\obj\Debug\net8.0\TestPol.AssemblyInfoInputs.cache
+C:\Users\MiYa\source\repos\TestPol\obj\Debug\net8.0\TestPol.AssemblyInfo.cs
+C:\Users\MiYa\source\repos\TestPol\obj\Debug\net8.0\TestPol.csproj.CoreCompileInputs.cache
+C:\Users\MiYa\source\repos\TestPol\obj\Debug\net8.0\TestPol.dll
+C:\Users\MiYa\source\repos\TestPol\obj\Debug\net8.0\refint\TestPol.dll
+C:\Users\MiYa\source\repos\TestPol\obj\Debug\net8.0\TestPol.pdb
+C:\Users\MiYa\source\repos\TestPol\obj\Debug\net8.0\TestPol.genruntimeconfig.cache
+C:\Users\MiYa\source\repos\TestPol\obj\Debug\net8.0\ref\TestPol.dll

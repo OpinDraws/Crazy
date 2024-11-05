@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TestPol": {
+      "commandName": "Project",
+      "commandLineArgs": "(34+1)*(-1)"
+    }
+  }
+}
