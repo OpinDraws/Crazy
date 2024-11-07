@@ -1,4 +1,4 @@
-﻿using MyStack;
+using MyStack;
 using System.Xml.Linq;
 
 internal class Program
@@ -6,28 +6,36 @@ internal class Program
     static void Main(string[] args)
     {
 
-        string equation = string.Join(",", args);
-        ReversePolishNotation polk = new ReversePolishNotation();   
-        double res = polk.Result(equation);
+       string[] snape = (string.Join(" ", args)).Split(' ');
+        string equation = snape[0];
+        ReversePolishNotation polk = new ReversePolishNotation();
+        string[] vari = new string[snape.Length-1];
+        for (int i = 1;i < snape.Length; i++)
+        {
+            vari[i-1] = snape[i];
+        }
+  
+        double res = polk.Result(equation, vari);
         Console.WriteLine(res);
     }
 
     public class ReversePolishNotation
     {
 
-        public double Result(string equation)
+        public double Result(string equation,string[] variables)
         {
-            string polk = ConvertNote(equation);
+            string polk = ConvertNote(equation, variables);
             Console.WriteLine(polk);
-            return Calculator(polk);
+            return Calculator(polk, variables);
         }
 
-        private static string ConvertNote(string equation)
+        private static string ConvertNote(string equation, string[] variables)
         {
             string result = "";
             MyStack<string> oper = new MyStack<string>();
             for (int i = 0; i < equation.Length; i++)
             {
+               
                 if (Char.IsDigit(equation[i]))
                 {
 
@@ -45,7 +53,29 @@ internal class Program
                         }
                         oper.Push(name);
                     }
-                }
+                    else {
+                        
+                        for (int l = 0; l < variables.Length; l++)
+                        {
+                            int j = 0;
+                            if (Char.IsLetter(variables[l][j]))
+                            {
+                                string search = PopText(variables[l], ref j);
+                        
+                                if (search == name && j + 2 <= variables[l].Length)
+                                {
+                                   
+                                    if (variables[l][j + 1] == '=' && Char.IsDigit(variables[l][j + 2])) 
+                                    { j += 2; string test = (PopNumber(variables[l], ref j));
+                                
+                                            result += test + " ";
+                                        l = variables.Length;
+                                    }
+                                }
+                            }
+                        }
+            }
+        }
                 else if (Weight(Convert.ToString(equation[i])) != 0)
                 {
                     string name = Convert.ToString(equation[i]);
@@ -93,6 +123,7 @@ internal class Program
                     }
                     oper.Push(name);
                 }
+               
 
             }
             while (!oper.Empty())
@@ -139,7 +170,7 @@ internal class Program
             return output;
         }
 
-        private static double Calculator(string note)
+        private static double Calculator(string note, string[] variables)
         {
             string result = "";
             MyStack<double> numbers = new MyStack<double>();
@@ -156,13 +187,13 @@ internal class Program
                     {
                         {
                             string oper = Convert.ToString(note[i]);
-                            numbers.Push(Count(oper, numbers));
+                            numbers.Push(Count(oper, numbers, variables));
                         }
                     }
                     else if (note[i] == '/' && note[i + 1] == '/')
                     {
                         i += 1;
-                        numbers.Push(Count("//", numbers));
+                        numbers.Push(Count("//", numbers, variables));
                     }
                     else if (note[i] == '!')
                     {
@@ -211,7 +242,7 @@ internal class Program
             }
         }
 
-        private static double Count(string oper, MyStack<double> numbers)
+        private static double Count(string oper, MyStack<double> numbers, string[] variables)
         {
             switch (oper)
             {
@@ -360,6 +391,7 @@ internal class Program
                         else return x;
                     }
                 default:
+                   
                     Console.WriteLine($"Введите переменную: {oper}");
                     double val = Convert.ToDouble(Console.ReadLine());
                     return val;
