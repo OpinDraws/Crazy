@@ -1,0 +1,14 @@
+C:\Users\RobotComp.ru\source\repos\Task23\Task23\bin\Debug\net8.0\Task23.exe
+C:\Users\RobotComp.ru\source\repos\Task23\Task23\bin\Debug\net8.0\Task23.deps.json
+C:\Users\RobotComp.ru\source\repos\Task23\Task23\bin\Debug\net8.0\Task23.runtimeconfig.json
+C:\Users\RobotComp.ru\source\repos\Task23\Task23\bin\Debug\net8.0\Task23.dll
+C:\Users\RobotComp.ru\source\repos\Task23\Task23\bin\Debug\net8.0\Task23.pdb
+C:\Users\RobotComp.ru\source\repos\Task23\Task23\obj\Debug\net8.0\Task23.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RobotComp.ru\source\repos\Task23\Task23\obj\Debug\net8.0\Task23.AssemblyInfoInputs.cache
+C:\Users\RobotComp.ru\source\repos\Task23\Task23\obj\Debug\net8.0\Task23.AssemblyInfo.cs
+C:\Users\RobotComp.ru\source\repos\Task23\Task23\obj\Debug\net8.0\Task23.csproj.CoreCompileInputs.cache
+C:\Users\RobotComp.ru\source\repos\Task23\Task23\obj\Debug\net8.0\Task23.dll
+C:\Users\RobotComp.ru\source\repos\Task23\Task23\obj\Debug\net8.0\refint\Task23.dll
+C:\Users\RobotComp.ru\source\repos\Task23\Task23\obj\Debug\net8.0\Task23.pdb
+C:\Users\RobotComp.ru\source\repos\Task23\Task23\obj\Debug\net8.0\Task23.genruntimeconfig.cache
+C:\Users\RobotComp.ru\source\repos\Task23\Task23\obj\Debug\net8.0\ref\Task23.dll
