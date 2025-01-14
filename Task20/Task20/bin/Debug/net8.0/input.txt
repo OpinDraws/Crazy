@@ -1,0 +1,6 @@
+float kkk = 2,20;int loshara=26666;
+string str = "s"; char s = f;dict s = "f";
+int eskere = 21; int los = 5;
+float kkk = 2,55;
+int los = 7;
+int jjj=9;

@@ -1,0 +1,5 @@
+Float=> kkk(2,20)
+Integer=> los(5)
+Integer=> loshara(26666)
+Integer=> jjj(9)
+Integer=> eskere(21)
