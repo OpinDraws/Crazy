@@ -1,0 +1,3 @@
+Python is amazing. python is powerful.
+Hello world! Hello Universe.
+Words like 'Hello' and 'world' should be counted once.

@@ -1,0 +1,14 @@
+C:\Users\RobotComp.ru\source\repos\Task25\Task25\bin\Debug\net8.0\Task25.exe
+C:\Users\RobotComp.ru\source\repos\Task25\Task25\bin\Debug\net8.0\Task25.deps.json
+C:\Users\RobotComp.ru\source\repos\Task25\Task25\bin\Debug\net8.0\Task25.runtimeconfig.json
+C:\Users\RobotComp.ru\source\repos\Task25\Task25\bin\Debug\net8.0\Task25.dll
+C:\Users\RobotComp.ru\source\repos\Task25\Task25\bin\Debug\net8.0\Task25.pdb
+C:\Users\RobotComp.ru\source\repos\Task25\Task25\obj\Debug\net8.0\Task25.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RobotComp.ru\source\repos\Task25\Task25\obj\Debug\net8.0\Task25.AssemblyInfoInputs.cache
+C:\Users\RobotComp.ru\source\repos\Task25\Task25\obj\Debug\net8.0\Task25.AssemblyInfo.cs
+C:\Users\RobotComp.ru\source\repos\Task25\Task25\obj\Debug\net8.0\Task25.csproj.CoreCompileInputs.cache
+C:\Users\RobotComp.ru\source\repos\Task25\Task25\obj\Debug\net8.0\Task25.dll
+C:\Users\RobotComp.ru\source\repos\Task25\Task25\obj\Debug\net8.0\refint\Task25.dll
+C:\Users\RobotComp.ru\source\repos\Task25\Task25\obj\Debug\net8.0\Task25.pdb
+C:\Users\RobotComp.ru\source\repos\Task25\Task25\obj\Debug\net8.0\Task25.genruntimeconfig.cache
+C:\Users\RobotComp.ru\source\repos\Task25\Task25\obj\Debug\net8.0\ref\Task25.dll
